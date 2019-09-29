@@ -1,0 +1,133 @@
+body
+{
+  font-family: "Avantgarde", "TeX Gyre Adventor", "URW Gothic L", sans-serif;
+  width: 100%;
+}
+
+header
+{
+  background-attachment:fixed;
+}
+header.gizeh
+{
+  background: left/cover url(../img/header2.jpg);
+  display:flex;
+  align-items: center;
+  height: 300px;
+  width: 100%;
+
+}
+h1
+{
+  width: 500px;
+  margin-left: 35%;
+  font-size: 70px;
+  color :f6b700;
+}
+nav
+{
+  background-color: transparent;
+  text-align: center;
+  float: left right;
+
+}
+nav ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1ABC9C;
+}
+nav li
+{
+  float: left;
+  margin-right: 50px;
+}
+nav li a
+{
+  display: block;
+  width: auto;
+  color: white;
+  text-align: center;
+  padding: 25px 25px;
+  text-decoration: none;
+}
+li a:hover
+{
+  background-color: #F6B700;
+  color: white;
+  width: auto;
+}
+.active
+{
+  background-color: #178283;
+  width: auto;
+}
+#recherche
+{
+  width: auto;
+  float: right;
+  padding: 20px 20px;
+}
+
+section
+{
+  display:block;
+  text-align: justify;
+  width: 700px;
+  height: 250px;
+  margin-top: 20px;
+  margin-left: 20%;
+  margin-bottom: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: rgba(23, 130, 131, 0.5);
+}
+#conteneur1, #conteneur2
+{
+  background-color: rgba(26, 188, 156, 0.10);
+  margin-right: 20px;
+  margin-left: 100px;
+  width: 80%;
+}
+#conteneur1
+{
+  display:flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+.avion
+{
+  width: 200px;
+  height: 200px;
+  background: no-repeat url(../img/avion2.jpeg);
+
+}
+.hotel
+{
+  width: 200px;
+  height: 200px;
+  background: no-repeat url(../img/hôtel.jpeg);
+}
+.activité
+{
+  width: 200px;
+  height: 200px;
+  background: no-repeat url(../img/activité.jpeg);
+}
+#conteneur2
+{
+  display: flex;
+  justify-content: space-around;
+}
+.textAvion, .textHotel, .textActivité
+{
+  text-align: justify;
+  width: 200px;
+  height: 200px;
+}
+h2, h3
+{
+  text-align: center;
+}
