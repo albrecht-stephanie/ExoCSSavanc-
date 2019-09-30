@@ -1,3 +1,6 @@
+@media only screen and (min-width: 481px)
+{
+
 body
 {
   font-family: "Avantgarde", "TeX Gyre Adventor", "URW Gothic L", sans-serif;
@@ -10,7 +13,7 @@ header
 }
 header.gizeh
 {
-  background: left/cover url(../img/header2.jpg);
+  background:left/cover url(../img/header2.jpg);
   display:flex;
   align-items: center;
   height: 300px;
@@ -64,11 +67,12 @@ li a:hover
   background-color: #178283;
   width: auto;
 }
-#recherche
+.searchbox
 {
-  width: auto;
+  margin-top: 20px;
+  margin-right: 20px;
   float: right;
-  padding: 20px 20px;
+
 }
 
 section
@@ -84,20 +88,20 @@ section
   padding-right: 25px;
   background-color: rgba(23, 130, 131, 0.5);
 }
-#conteneur1, #conteneur2
+#container1, #container2
 {
   background-color: rgba(26, 188, 156, 0.10);
   margin-right: 20px;
   margin-left: 100px;
   width: 80%;
 }
-#conteneur1
+#container1
 {
   display:flex;
   justify-content: space-around;
   padding-top: 20px;
 }
-.avion
+.plane
 {
   width: 200px;
   height: 200px;
@@ -110,18 +114,18 @@ section
   height: 200px;
   background: no-repeat url(../img/hôtel.jpeg);
 }
-.activité
+.activity
 {
   width: 200px;
   height: 200px;
   background: no-repeat url(../img/activité.jpeg);
 }
-#conteneur2
+#container2
 {
   display: flex;
   justify-content: space-around;
 }
-.textAvion, .textHotel, .textActivité
+.textPlane, .textHotel, .textActivity
 {
   text-align: justify;
   width: 200px;
@@ -130,4 +134,5 @@ section
 h2, h3
 {
   text-align: center;
+}
 }
